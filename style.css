@@ -14,16 +14,12 @@ body {
 }
 
 .row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-
-.row {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 .row__narrow {
     width: 100%;
@@ -981,6 +977,13 @@ LANDING
 
 header {
   height: calc(100vh - 80px);
+}
+
+.header__img {
+  width: 50%;
+  height: 60%;
+  
+
 }
 
 .header__container {
