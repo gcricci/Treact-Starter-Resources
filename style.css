@@ -282,6 +282,11 @@ header {
   z-index: 50;
 }
 
+.header__img {
+  max-width: 36px;
+  height: auto;
+}
+
 .nav__logo span {
   font-size: 24px;
   font-weight: bold;
@@ -979,12 +984,7 @@ header {
   height: calc(100vh - 80px);
 }
 
-.header__img {
-  width: 50%;
-  height: 60%;
-  
 
-}
 
 .header__container {
   width: 100%;
