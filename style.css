@@ -633,6 +633,12 @@ FEATURES ↓
     align-items: center;
 }
 
+.feature__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* 
 
