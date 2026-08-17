@@ -408,6 +408,16 @@ FEATURES
   background-color: rgba(115, 66, 214, 0.1);
 }
 
+.features__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.feature {
+  width: calc(100% / 3);
+}
+
 .books {
   display: flex;
   flex-wrap: wrap;
