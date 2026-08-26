@@ -61,6 +61,15 @@ body {
 }
 
 .container {
+  position: relative;
+}
+
+.email__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.container {
     padding: 96px 0;
 }
 
