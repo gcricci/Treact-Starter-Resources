@@ -19,6 +19,27 @@
   width: 60%;
 }
 
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.link-list a {
+  color: white;
+  text-decoration: none;
+}
+
 .header__email {
   width: 100%;
   max-width: 448px;
@@ -197,6 +218,17 @@ button:active {
   font-size: 20px;
   border-radius: 4px;
   border: none;
+}
+
+.values__button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  background-color: #6415ff;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 
@@ -1006,8 +1038,6 @@ button:active {
   width: 160px;
 }
 
-
-
 .nav__container {
   width: 100%;
   max-width: 1200px;
@@ -1022,7 +1052,7 @@ button:active {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #7342d6;
+  color: #7342d6
   font-weight: bold;
   padding: 8px;
 }
