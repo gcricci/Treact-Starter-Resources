@@ -176,6 +176,20 @@ button:active {
   transform: translateY(1px);
 }
 
+ btn {
+    width: 50%;
+
+  }
+  .quality__button {
+  display: inline-block;
+  margin-top: 24px;
+  padding: 12px 24px;
+  background-color: #6415ff;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
 .btn {
   background-color: #7342d6;
   color: white;
@@ -184,6 +198,7 @@ button:active {
   border-radius: 4px;
   border: none;
 }
+
 
 .purple {
   color: #7342d6;
@@ -570,9 +585,6 @@ footer {
     font-size: 18px;
   }
 
-  .book {
-    width: 50%;
-  }
 }
 .nav__logo img {
   width: 40px;
@@ -746,6 +758,25 @@ QUALITY WORK ↓
     justify-content: space-between;
 }
 
+.quality__img { width: 100%; }
+
+.quality__row {
+  display: flex;
+  align-items: center;
+}
+
+.quality__text {
+  width: 50%;
+}
+
+.quality__image {
+  width: 50%;
+  margin: 0;
+}
+
+.quality__img {
+  width: 100%;
+}
 
 /* 
 
