@@ -40,6 +40,10 @@
   text-decoration: none;
 }
 
+.link-list li:first-child {
+  color: white;
+}
+
 .header__email {
   width: 100%;
   max-width: 448px;
@@ -572,6 +576,13 @@ EXPLORE
 FOOTER
 
 */
+
+.footer__divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid white;
+  margin: 24px 0;
+}
 
 footer {
   background-color: #242424;
