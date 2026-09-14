@@ -922,6 +922,7 @@ footer {
   border-radius: 4px;
   font-weight: bold;
   color: #6415ff;
+  cursor: pointer;
 }
 
 MOBILE RESPONSIVENESS ↓
@@ -1364,7 +1365,7 @@ FOOTER
 */
 
 footer {
-  background-color: #242424;
+  background-color: #962bee;
   padding: 96px 32px;
   margin-bottom: -32px;
   position: relative;
