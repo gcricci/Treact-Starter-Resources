@@ -507,6 +507,7 @@ HIGHLIGHTS
   flex-direction: column;
 }
 
+
 .highlight__para {
   text-align: center;
   max-width: 280px;
@@ -539,7 +540,7 @@ FEATURES
 
 #features {
   padding-top: 8vw;
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(151, 108, 238, 0.1);
 }
   
 
@@ -551,7 +552,7 @@ FEATURES
 
 .feature {
   width: calc(100% / 3);
-}
+} 
 
 
 
@@ -563,9 +564,9 @@ EXPLORE
 */
 
 #explore {
-  background-color: rgba(115, 66, 214, 0.1);
+  background-color: rgba(151, 108, 238, 0.1);
 }
-
+ 
 /* 
 
 FOOTER
@@ -775,7 +776,7 @@ FEATURES ↓
 }
 
 #features {
-  background-color: #ccc1e4;
+  background-color: rgba(115, 66, 214, 0.1);
 }
 /* 
 
@@ -1536,4 +1537,3 @@ footer {
   .highlight:not(:last-child) {
     margin-bottom: 24px;
   }
-}
