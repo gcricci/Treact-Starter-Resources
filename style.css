@@ -762,7 +762,7 @@ FEATURES ↓
   min-width: 64px;
   height: 64px;
   border: 2px solid #d6ccff;
-  background-color: #ccc1e4; 
+  background-color: #e8e8ea; 
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -783,6 +783,10 @@ FEATURES ↓
 QUALITY WORK ↓
 
 */
+
+#quality {
+    background-color: rgba(115, 66, 214, 0.1);
+}
 
 #quality .row {
     display: flex;
@@ -867,6 +871,9 @@ QUALITY WORK ↓
 .step p {
   line-height: 1.5;
 }
+
+#steps{
+    background-color: rgba(115, 66, 214, 0.1);
 
 
 
